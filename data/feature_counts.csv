@@ -1,0 +1,79 @@
+num,lbl,n_features,stage,basis
+1,Adedinsewo 2023,,not_stated,"raw electrocardiogram data, found in the title and references"
+2,Agasthi 2020,87.0,final_after_selection,"donor and recipient demographic and transplant characteristics remaining after preselection and filtering, fou"
+3,Ahady Dolatsara 2020,,not_stated,"preoperative independent variables, which varied between 90 and 269 depending on categorical variable encoding"
+4,Ayers 2021,47.0,final_after_selection,"combined dataset of top variables from separate continuous and categorical feature importance models, found in"
+5,Barbosa 2018,3.0,derived_imaging_features,quantitative CT functional respiratory imaging (qCT FRI) baseline features used in the three-dimensional class
+6,Brahmbhatt 2022,,not_stated,"pre-transplant recipient covariates, with 27 selected a priori for the clinician model, and others selected vi"
+7,Chang 2025,,not_stated,not reported in the provided passages
+8,Chao 2024,,not_stated,principal components (PCs) of latent image features from ex vivo lung radiographs combined with EVLP tabular d
+9,Choshi 2025,3.0,final_after_selection,"final optimized model inputs consisting of tacrolimus dose, previous tacrolimus trough level, and administrati"
+10,Dalton 2023,,not_stated,not reported in the provided passages
+11,Davalos-Yerovi 2024,23.0,candidate_pool,common baseline pre-rehabilitation variables without missing values used as input for the artificial neural ne
+12,Ding 2025,66.0,final_after_selection,donor-recipient pre-transplant features selected and created for the heart transplant primary graft dysfunctio
+13,Dueñas-Jurado 2021,36.0,candidate_pool,donor-recipient pairing characteristic input variables used to train the hybrid evolutionary product-unit neur
+14,Gholamzadeh 2025,15.0,final_after_selection,"pre-transplant donor and recipient features remaining after preprocessing and feature engineering, found in Ab"
+15,Glass 2024,,not_stated,"deep learning image patches from endomyocardial biopsy slides, found in main text"
+16,Gnanasambandhan 2023,,not_stated,"demographic, donor, and recipient attributes, found in Section 4.1"
+17,Gouiaa 2024,,not_stated,"multivariate clinical and biological features including soluble CD31 levels, found in Section 'Data Denoising."
+18,Hickey 2023,,not_stated,not reported in the provided passages
+19,Hsich 2019,,not_stated,"candidate variables from the Scientific Registry of Transplant Recipients database, found in Section 'Baseline"
+20,Hsich 2020,92.0,candidate_pool,"pre-transplant recipient and donor clinical variables used to grow the random survival forest, found in Sectio"
+21,Ismail 2025,,not_stated,"chest radiograph anatomical lung sizing measurements, found in Brief Communication"
+22,Johnston 2025,,not_stated,"pre-transplant recipient and donor clinical/demographic features from the SRTR database, found in Section 4.1"
+23,Kainuma 2022,,not_stated,"pre-operative recipient and donor risk factors, found in Section 6"
+24,Kampaktsis 2021,39.0,final_after_selection,"pre-transplant variables selected via SVM-FuzCoC feature selection from 134 candidate variables, found in Abst"
+25,Kampaktsis 2023,10.0,final_after_selection,"final selected variables combining SHAP recursive feature elimination and expert clinical consensus, found in "
+26,Kozinski 2025,,not_stated,"raw 3D computed tomography scan images, found in Section 3"
+27,Lehr 2024,,not_stated,"donor factors and lung allocation variables, found in references and abstract"
+28,Lehr 2020,96.0,candidate_pool,"pre-transplant donor and recipient clinical variables used to grow the random survival forest, found in comple"
+29,Linse 2023,33.0,final_after_selection,"risk variables selected as relevant for prediction from 77 candidate variables, found in Abstract"
+30,Liou 2025,,not_stated,"pre-transplant recipient and donor clinical variables, found in Section 'Cohort characteristics'"
+31,Lipkova 2022,,not_stated,"raw whole-slide biopsy images tiled into patches and embedded into 1024-dimensional deep feature vectors, foun"
+32,Lisboa 2022,9.0,final_after_selection,"clinical variables commonly used to predict 1-year mortality, selected to initialize the self-explaining parti"
+33,Ma 2025,13.0,final_after_selection,"clinical features selected via LASSO from 98 candidates, found in Results"
+34,Mardini 2024,19.0,candidate_pool,"clinical and donor-recipient compatibility features extracted from the UNOS registry, found in Section 2.3"
+35,McInnis 2022,,not_stated,not reported in the provided passages
+36,Medved 2018,43.0,candidate_pool,"donor and recipient variables in the primary deep-learning IHTSA model, found in Section 'Discussion'"
+37,Michelson 2024,11.0,final_after_selection,"pre-transplant clinical variables selected via LASSO from 100 candidates, found in Section 3.2"
+38,Miller 2019,,not_stated,not reported in the provided passages
+39,Ozcan 2022,1.0,derived_imaging_features,"artificial intelligence-derived cardiac ageing (ΔECG age) used in Cox proportional hazards models, found in Se"
+40,Pelzer 2023,,not_stated,"clinical, laboratory, and hemodynamic variables at the time of listing, found in Abstract"
+41,Raji 2022,24.0,final_after_selection,"donor, recipient, and transplantation attributes remaining after data validation and selection, found in Secti"
+42,Rodriguez 2022,,not_stated,not reported in the provided passages
+43,Sage 2023,,not_stated,not reported in the provided passages
+44,Seraphin 2023,,not_stated,"whole-slide image patches from endomyocardial biopsy slides, found in Results"
+45,Shaw 2023,,not_stated,not reported in the provided passages
+46,Shou 2022,,not_stated,"pre-operative recipient and donor variables, found in Figure 3/4 captions"
+47,Singh 2024,,not_stated,"preoperative clinical and CT features, with 130 tested in total, found in Section 2.4"
+48,Singh 2025 (PGD),4.0,final_after_selection,"clinical and CT-derived volumetric features remaining after lasso regression selection, found in Figure 2"
+49,Singh 2025 (Survival),11.0,derived_imaging_features,"clinical, demographic, and CT-derived features used in the aggregate survival prediction model, found in Secti"
+50,Tian 2023,,not_stated,"post-transplant clinical variables with variable importance (VIMP) greater than 0.01, found in Section 'Model "
+51,Tian 2024,,not_stated,"preoperative recipient and donor clinical variables, found in Section 'ML models...'"
+52,Wang 2022,6.0,final_after_selection,"preoperative clinical variables selected via LASSO regression, found in Section 'RESULTS'"
+53,Yeo 2025,10.0,final_after_selection,"top most important features selected via SHAP from 25 candidate variables, found in Section 'Results'"
+54,Yoon 2018,53.0,final_after_selection,"clinical, donor, and donor-recipient compatibility features from the UNOS database remaining after excluding h"
+55,Zadeh 2024,,not_stated,"donor-recipient clinical variables remaining after excluding 173 irrelevant, redundant, or missing features, f"
+56,Zafar 2022,,not_stated,not reported in the provided passages
+57,Zhou 2021,13.0,final_after_selection,"variables with p < 0.1 in univariate analysis and remaining after LASSO selection, found in Section 'Variables"
+58,Peyster 2021,2.0,final_after_selection,final binary high-vs-low-grade model (M1) used 2 features selected by Wilcoxon rank-sum from 154 hand-crafted 
+59,Allehyani 2025,,not_stated,no explicit stated count of predictors used in final LR/SVM models
+60,Ayer 2026,,not_stated,final_after_selection stated as 'backward elimination of candidate model features' but no final count given; the '5' was a mis-read of 5-fold cross-validation
+61,Dag 2026,,not_stated,"Study runs 3 separate time-horizon models (1-month/1-year/5-year) x old-vs-combined sets, no single primary mo"
+62,Ding 2026,27.0,final_after_selection,final predictor set retained after correlation + RFE selection for GBM model
+63,Fessler 2025,6.0,final_after_selection,Top features selected by XGBoost at surgical step 8 for final risk model
+64,Kim 2026,8.0,final_after_selection,IRRI final index: '8 key predictors - 4 clinical and 4 morphologic' (verbatim)
+65,Koritsánszky 2025,,not_stated,"Feature selection yielded 15-25 predictors per fold, no single stated final count"
+66,Luo 2026,140.0,final_after_selection,Feature count for the 'all years' XGBoost/EHRFormer model after <10% missingness filtering
+67,Mete 2026,15.0,final_after_selection,final streamlined RF model uses top 15 variables selected by feature importance
+68,Noh 2025,9.0,final_after_selection,Final 9 pretransplant variables used in the primary MLP model
+70,Sharma 2025,9.0,final_after_selection,'9-variable AutoScore-Survival model' stated in the abstract
+71,Tran-Dinh 2026,27.0,derived_imaging_features,"'27 topological features' = 3+3+(7x3) concatenated homology-dimension features; DERIVED, not clinical variables"
+72,Weigt 2025,31.0,final_after_selection,"31-gene Random Forest classifier, final locked model after Boruta selection"
+73,White 2026,61.0,final_after_selection,"XGBoost 'max variable' model, the highest-performing primary model, used 61 clinical variables"
+74,Yim 2026,8.0,final_after_selection,Eight SHAP-selected predictors used in final nomogram/XGBoost model
+77,Zhu 2026,6.0,final_after_selection,Final RF model built on 6 predictors selected via RFE from 22 candidates
+78,Nosoudi 2026,,not_stated,"The paper describes an initial pool of 580 variables reduced to 407 after exclusion criteria, and reports ranked variable-importance tables (12, 15, 20 variable"
+79,Zhang 2026,8.0,final_after_selection,"LASSO selected 8 non-zero coefficient features which were used to construct the final ML models, with LGBM as the primary/optimal model"
+80,Xia 2025,9.0,final_after_selection,"After univariate logistic regression and LASSO regression, the intersection yielded 9 variables that were used as the final input features for the 9 ML models, "
+81,Miller RJH 2022,114.0,final_after_selection,"Figure 1 of the paper: 114 donor, recipient or matching variables, all retained in the models ('the full set of variables is needed to achieve maximum performance')"

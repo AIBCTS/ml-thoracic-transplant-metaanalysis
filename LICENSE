@@ -1,0 +1,28 @@
+Copyright (c) 2026 AIBCTS.
+All rights reserved.
+
+This repository (code, data, documentation, figures, and tables) is made publicly
+visible solely so that the results of the associated systematic review and
+meta-analysis can be inspected and reproduced.
+
+Permission is granted to view the contents of this repository and to download and
+run the unmodified code, on a personal or institutional computer, for the sole
+purpose of reproducing and checking the results reported in the associated article.
+
+No other rights are granted. Without the prior written permission of the copyright
+holders, you may not:
+  1. modify, adapt, translate, or create derivative works from the code or data;
+  2. copy, redistribute, publish, sublicense, or otherwise make available the code,
+     data, or any part of them, in original or modified form;
+  3. use the code or data, in whole or in part, in any other work, product, service,
+     or publication;
+  4. use the code or data for any commercial purpose.
+
+Citing the associated article and quoting individual results with attribution is
+permitted.
+
+Requests for permission: open an issue at https://github.com/AIBCTS/ml-thoracic-transplant-metaanalysis/issues
+
+THE SOFTWARE AND DATA ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE OR DATA.

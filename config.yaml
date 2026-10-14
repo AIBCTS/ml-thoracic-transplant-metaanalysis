@@ -1,0 +1,56 @@
+# Project configuration — AI in thoracic transplantations
+
+analysis:
+  study_id_col: "study_id"
+  reviewer_col: "reviewer"
+  date_col: "date_reviewed"
+  agreement_threshold: 0.10   # relative SD threshold for numeric disagreement
+  min_studies_for_pooling: 3  # minimum studies per subgroup for meta-analysis (as in the manuscript)
+
+value_normalisation:
+  # Format: "raw value as it appears in sheet": "canonical value"
+  # Applied to ALL categorical columns before any processing
+  global:
+    "NR": "Not Reported"
+    "nr": "Not Reported"
+    "not reported": "Not Reported"
+    "not reported ": "Not Reported"   # trailing space variant
+    "N/A": "Not Applicable"
+    "n/a": "Not Applicable"
+    "NA": "Not Applicable"
+    "Yes": "Yes"
+    "yes": "Yes"
+    "No": "No"
+    "no": "No"
+    "Unclear ": "Unclear"             # trailing space
+    " Unclear": "Unclear"             # leading space
+    "Low risk": "Low Risk"
+    "low risk": "Low Risk"
+    "High risk": "High Risk"
+    "high risk": "High Risk"
+    "Not Applicable/Not Reported": "Not Applicable / Not Reported"
+    # NOTE: <NA> (blank cells) are intentionally NOT mapped to "Not Reported"
+    # Blank = reviewer did not fill in; "Not Reported" = reviewer confirmed absent
+    # Blanks are flagged by the audit for human review
+
+  # Column-specific mappings (override global for that column only)
+  per_column:
+    class_imbalance:
+      "NR": "Not Applicable / Not Reported"
+    DatasetName:
+      "NR": "Not Applicable / Not Reported"
+
+
+
+# ---------------------------------------------------------------------------
+# Figure / table number style (added 2026-09-04). Read by 05_analysis/scripts/figstyle.py
+# (all matplotlib figures and 14_supplementary_tables.py), build_forest_forestploter.R
+# (Figures 3-5) and the decimal gate in 05_analysis/tests/test_package_consistency.py.
+#   "middot" -> 0·695  (Lancet family house style)
+#   "period" -> 0.695  (NEJM AI, JAMA, most other journals)
+# Change here, then: python 05_analysis/scripts/run_pipeline.py --from meta  (forests + figures + tables)
+# and rebuild the documents. Environment variable FIG_DECIMAL_MARK overrides for a one-off run.
+# NOTE: the manuscript/appendix TEXT is written with middle dots by hand; converting it is a
+# separate step (see RUNBOOK_repo_update.md, "Switching journal decimal style").
+figures:
+  decimal_mark: "middot"

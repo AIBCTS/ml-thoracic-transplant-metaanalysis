@@ -1,0 +1,18 @@
+[project]
+name = "ml-thoracic-transplant-metaanalysis"
+version = "1.0.0"
+description = "Analysis code and data: machine learning in heart and lung transplantation, systematic review and meta-analysis"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas==3.0.3",
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "matplotlib==3.11.1",
+    "openpyxl==3.1.5",
+    "pyyaml==6.0.3",
+    "pypdfium2==5.12.1",
+    "pillow==12.3.0",
+]
+
+[tool.uv]
+package = false

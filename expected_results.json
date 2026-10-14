@@ -1,0 +1,75 @@
+{
+  "_note": "Values as reported in the manuscript (rounded as printed). check_results.py compares the pipeline outputs, rounded the same way.",
+  "pooled": {
+    "Heart / 1-year survival": {
+      "k": 10,
+      "auroc": "0.690",
+      "ci": [
+        "0.649",
+        "0.729"
+      ],
+      "pi": [
+        "0.562",
+        "0.794"
+      ],
+      "I2": 95
+    },
+    "Lung / 1-year survival": {
+      "k": 6,
+      "auroc": "0.758",
+      "ci": [
+        "0.568",
+        "0.882"
+      ],
+      "pi": [
+        "0.255",
+        "0.966"
+      ],
+      "I2": 98
+    },
+    "Heart / Acute Rejection": {
+      "k": 3,
+      "auroc": "0.899",
+      "ci": [
+        "0.500",
+        "0.988"
+      ],
+      "pi": [
+        "0.112",
+        "0.998"
+      ]
+    }
+  },
+  "registry_sensitivity_heart_ci": [
+    "0.464",
+    "0.858"
+  ],
+  "ml_vs_linear_tier1": {
+    "n": 13,
+    "higher": 11,
+    "median_delta": "0.040",
+    "p": "0.0002"
+  },
+  "determinants": {
+    "n": 62,
+    "rho": "-0.522",
+    "p_U": "0.0014",
+    "n_image_pathology_waveform": 14,
+    "n_tabular": 45
+  },
+  "table1": {
+    "Heart": 37,
+    "Lung": 37,
+    "Other": 4,
+    "external_validation": 16,
+    "one_year_survival": 29
+  },
+  "lung_binary_only": {
+    "k": 4,
+    "pooled": "0.731",
+    "ci": [
+      "0.492",
+      "0.884"
+    ]
+  }
+}
